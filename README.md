@@ -34,7 +34,7 @@ Exit codes: `0` no failures, `1` failures found, `2` config/runtime error.
 
 ## Model selection
 
-Default: `google/gemini-2.0-flash-001` via `JARVIS_OPEN_MODEL`. README documents optional A/B with other OpenRouter models — not required for ship.
+Default: `openai/gpt-5.6-terra` via `JARVIS_OPEN_MODEL`. README documents optional A/B with other OpenRouter models — not required for ship.
 
 ## First run
 

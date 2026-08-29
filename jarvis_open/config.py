@@ -5,7 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 DEFAULT_VAULT = "/Users/kevinbostic/Desktop/JARVIS/Jarvis"
-DEFAULT_MODEL = "google/gemini-2.0-flash-001"
+DEFAULT_MODEL = "openai/gpt-5.6-terra"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
