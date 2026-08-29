@@ -143,7 +143,8 @@ def main() -> int:
             print(line)
 
     l1_pass = l1_correct >= L1_THRESHOLD and l1_total >= 10
-    l2_pass = l2_ran and l2_correct >= max(L2_THRESHOLD, int(l2_total * 0.7 + 0.999)) if l2_total else False
+    l2_min = int(l2_total * 0.7 + 0.999) if l2_total else 0
+    l2_pass = l2_ran and l2_total > 0 and l2_correct >= l2_min
 
     eval_mode = "openrouter" if l2_ran else "skipped"
 
