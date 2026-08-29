@@ -1,0 +1,7 @@
+.env
+.venv/
+reports/
+evals/last_run.json
+__pycache__/
+*.pyc
+.Python
